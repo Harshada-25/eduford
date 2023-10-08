@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 2% 6%;
+    color: whitesmoke;
+}
+
+.hi{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(24, 24, 24, 0.7),rgba(24, 24, 24, 0.7)),url(https://weviral.org/wp-content/uploads/2022/06/campus_img6.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+nav img{
+    width: 17%;
+}
+
+
+nav ul li  a{
+    color: red;
+    margin-inline: 10px;
+    font-size:15px;
+    list-style: none;
+    position: relative;
+    font-size: 20px;
+
+}
+
+
+
+nav ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+
+}
+
+
+
+nav ul li:hover:after {
+    width: 100%;
+    
+
+}
+
+
+
+.li h1{
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+.li{
+    color: antiquewhite;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+
+button{
+
+    display:inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid blue;
+    padding:12px 34px;
+    background: transparent;
+    margin-top: 130px;
+    position: relative;
+    cursor: pointer;
+
+
+
+}
+
+
+button:hover{
+    border: 1px solid aquamarine;
+    background-color: aquamarine;
+    transition: 1s;
+}
+
+.pr ul li a{
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top:30px;
+    color: white;
+}
+
+
+.pr li{
+    list-style: none;
+}
+
+.pr img{
+    margin-top: 30px;
+}
+
+
+
+.pra{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+.hd p{
+    position: relative;
+    top:10px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 44px;
+    padding: 10px;
+    
+    
+
+}
+
+/* .layer{
+    background: rgba(226,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 100px;
+} */
+
+
+
+
+.cover{
+    width: 800px;
+    height: 500px;
+    /* background: #000; */
+    margin-top: 50px;
+    display: flex;
+    margin-left: 200px;
+   
+}
+
+.box{
+    margin: 15px;
+    width: 1500px;
+    height: 300px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: pink;
+
+    
+    
+}
+
+
+.box:hover{
+    box-shadow: -1px 0 10px grey;
+}
+
+
+
+.box p{
+
+    color: grey;
+}
+
+
+
+.box h2{
+    padding-bottom: 20px;
+}
+
+
+
+.box1{
+    margin: 15px;
+    width: 1500px;
+    height: 300px;
+    padding: 20px;
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: pink;
+}
+.box1:hover{
+    box-shadow: -1px 0 10px gray;
+}
+
+
+.box1 h2{
+    padding-bottom: 20px;
+}
+.box1 p{
+
+    color: grey;
+}
+
+
+
+
+.box2{
+    margin: 15px;
+    width:1500px;
+    height: 300px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: pink;
+}
+
+
+
+.box2:hover{
+    box-shadow: -1px 0 10px grey;
+}
+.box2 h2{
+    padding-bottom: 20px;
+}
+
+.box2 p{
+
+    color: grey;
+}
+
+
+
+
+.pv{
+    margin-top:0px;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+}
+
+.img img{
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    top:10px;
+    width: 300px;
+    height: 400px;
+    left: 100px;
+    padding:20px;
+   
+}
+
+.heading3{
+    color: #000;
+    text-align: center;
+    position: relative;
+    top:100px;
+    font-size: 20px;
+    
+}
+
+.heading3 p{
+    color: gray;
+}
+
+.learns{
+    position: relative;
+    top:10px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: flex-start;
+    margin-top: 44px;
+    
+   
+}
+
+.learns img{
+    width: 300px;
+    height: 400px;
+    
+}
+.leraners1 p{
+    color: grey;
+    margin-top: 30px;
+    text-align: justify;
+
+    
+}
+
+.leraners h2{
+    color: #000;
+    margin-top: 30px;
+}
+
+.leraners2 p{
+    color: grey;
+    margin-top: 30px;
+    padding-right: 10px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.leraners1 h2{
+    color: #000;
+    margin-top: 30px;
+}
+
+
+.leraners p{
+    color: gray;
+    margin-top: 30px;
+    padding-right: 50px;
+    margin-left: 50px;
+    text-align: justify;
+   
+}
+
+
+
+
+
+
+.leraners2 h2{
+    color: #000;
+    margin-top: 30px;
+}
+
+
+
+
+
+.hp{
+    text-align: center;
+    position: relative;
+    top:200px;
+    
+    /* justify-content: space-between; */
+}
+
+
+
+.img-1{
+    margin-top: 300px;
+    background-color: rgb(253, 223, 228);
+    width: 450px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.img-1 img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 120px;
+    top:1200px;
+    border-radius: 100px;
+}
+
+.img-1 .ph{
+    text-align: justify;
+    margin-left: 100px;
+    height: 200px;
+    padding-top: 30px;
+
+}
+
+
+
+
+.img-2{
+    margin-top: 300px;
+    background-color: rgb(253, 223, 228);
+    width: 450px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.img-2 img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 610px;
+    top:1200px;
+    border-radius: 100px;
+}
+
+.img-2 .ph{
+    text-align: justify;
+    margin-left: 100px;
+    height: 200px;
+    padding-top: 30px;
+
+}
+.div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.heading-2 {
+margin-top: 50px;
+padding: 100px;
+color: white;
+background-image:linear-gradient(rgba(24, 24, 24, 0.7),rgba(24, 24, 24, 0.7)),url(https://www.utimes.pitt.edu/sites/default/files/061319/classspace_Large_TA.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.social-icon{
+    margin-top: 50px;
+    text-align: center;
+}
